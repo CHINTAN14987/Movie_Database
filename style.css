@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.header
+{
+    display: flex;
+    background-color: blue;
+     justify-content: space-between;
+     height: 4rem; 
+     align-items: center;
+     padding: 0.25rem; 
+
+
+}
+
+.header h1 
+{
+    margin: 0;
+    color:white;
+    font-size: 1.5rem;
+}
+
+.header button
+{
+    background: #f67722;
+  border: 1px solid #f67722;
+  color: white;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
+}
+
+#section-2 {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px;
+    width: 50vw;
+    height: 15vh;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem;
+
+  }
+  
+  #section-2 p
+  {
+      font-size: 1.5rem;
+  }
+  label{
+      display: block;
+  }
+
+  #input
+{
+    display: block;
+}
+
+
+.section-1
+{
+   
+    display: none;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    
+
+
+}
+ .modal
+ {
+    position: fixed;
+    z-index: 100;
+    width: 30vw;
+    height: 45vh;
+    top: 30%;
+    left: 40%;
+background-color: white;
+border-radius: 10px;
+    box-shadow: 0 2px 8px;
+    margin: 0.5rem 0.2rem;
+    padding: 0.4rem;
+     
+ }
+
+ ul{
+ list-style: none;
+
+ }
+
+
+.listElements
+{
+    height: 20vh;
+    width:50vh;
+   display: flex;
+   box-shadow: 0 2px 8px black;
+   border-radius: 10px 0 0 10px;
+   margin: 1rem auto;
+   
+}
+
+
+.imagelementsInfo
+{
+    
+    flex: 1;
+}
+
+
+.imagelementsInfo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.movie_TitleInfo{
+    flex:2;
+    margin: auto;
+    
+}
+.movie_TitleInfo h2{
+    height: 1.5rem;
+    color: #383838;
+    margin: 1rem;
+  
+}
+
+.movie_TitleInfo p
+{
+    background: #f67722;
+  padding: 0.25rem 0.4rem;
+  border-radius: 15px;
+  margin: 1rem;
+  display: inline;
+
+}
+
+label
+{
+font-weight: bold;
+margin: 0.5rem;
+}
+
+input
+{
+    border: 2px solid black;
+    padding: 0.4rem;
+    width: 90%;
+    margin: 0.2rem 0.4rem;
+}
+
+.close-btn,.add-btn
+{
+color: white;
+background-color: black;
+margin: 0.5rem 0.2rem;
+padding: 0.5rem;
+border-radius: 6px;
+box-shadow: 2px 5px grey;
+
+}
+
+.close-btn
+{
+    position: relative;
+    left: 160px;
+}
